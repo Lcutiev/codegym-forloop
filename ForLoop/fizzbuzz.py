@@ -1,5 +1,5 @@
 my_num = input("Enter any number: ")
-my_list = [int(fizzbuzz) for fizzbuzz in str(my_num)]
+my_list = [int(fizzbuzz) for fizzbuzz in str(my_num)] -- Approach 1: Split string into list of characters
 
 for fizzbuzz in my_list:
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
